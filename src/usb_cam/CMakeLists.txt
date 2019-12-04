@@ -22,6 +22,7 @@ find_package(image_transport REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(camera_info_manager REQUIRED)
 
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
@@ -36,6 +37,7 @@ ament_target_dependencies(
   "rclcpp"
   "sensor_msgs"
   "cv_bridge"
+  "camera_info_manager"
 )
 target_link_libraries ( cam_node ${OpenCV_LIBS} )
 
