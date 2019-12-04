@@ -1,0 +1,1 @@
+/home/portia/ros2Bot_ws/build/image_proc/ament_cmake_core/image_procConfig.cmake

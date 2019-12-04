@@ -1,0 +1,201 @@
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:[m[K In constructor ‘[01m[Kimage_rotate::ImageRotateNode::ImageRotateNode()[m[K’:
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:54:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = std::__cxx11::basic_string<char>; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("target_frame_id", config_.target_frame_id, std::string("")[01;35m[K)[m[K;
+                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:55:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("target_x", config_.target_x, static_cast<double>(0)[01;35m[K)[m[K;
+                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:56:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("target_y", config_.target_y, static_cast<double>(0)[01;35m[K)[m[K;
+                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:57:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("target_z", config_.target_z, static_cast<double>(1)[01;35m[K)[m[K;
+                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:59:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = std::__cxx11::basic_string<char>; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("source_frame_id", config_.source_frame_id, std::string("")[01;35m[K)[m[K;
+                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("source_x", config_.source_x, static_cast<double>(0)[01;35m[K)[m[K;
+                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:61:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("source_y", config_.source_y, static_cast<double>(-1)[01;35m[K)[m[K;
+                                                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:62:82:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("source_z", config_.source_z, static_cast<double>(0)[01;35m[K)[m[K;
+                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:64:89:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = std::__cxx11::basic_string<char>; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("output_frame_id", config_.output_frame_id, std::string("")[01;35m[K)[m[K;
+                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:65:87:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = std::__cxx11::basic_string<char>; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("input_frame_id", config_.input_frame_id, std::string("")[01;35m[K)[m[K;
+                                                                                       [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:66:78:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = bool; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->get_parameter_or_set("use_camera_info", config_.use_camera_info, true[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:68:28:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     static_cast<double>(10)[01;35m[K)[m[K;
+                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:70:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::get_parameter_or_set(const string&, ParameterT&, const ParameterT&) [with ParameterT = double; std::__cxx11::string = std::__cxx11::basic_string<char>][m[K’ is deprecated: use declare_parameter() and it's return value instead [[01;35m[K-Wdeprecated-declarations[m[K]
+     static_cast<double>(2)[01;35m[K)[m[K;
+                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:396:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::get_parameter_or_set(
+ [01;36m[K^~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:114:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rclcpp::Node::register_param_change_callback(CallbackT&&) [with CallbackT = image_rotate::ImageRotateNode::ImageRotateNode()::<lambda(std::vector<rclcpp::Parameter>)>&][m[K’ is deprecated: use set_on_parameters_set_callback() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   this->register_param_change_callback(reconfigureCallback[01;35m[K)[m[K;
+                                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:414:1:[m[K [01;36m[Knote: [m[Kdeclared here
+ [01;36m[KNode[m[K::register_param_change_callback(CallbackT && callback)
+ [01;36m[K^~~~[m[K
+/opt/ros/dashing/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kvoid rclcpp::Node::register_param_change_callback(CallbackT&&) [with CallbackT = image_rotate::ImageRotateNode::ImageRotateNode()::<lambda(std::vector<rclcpp::Parameter>)>&][m[K’:
+[01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:114:59:[m[K   required from here
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:416:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void rclcpp::node_interfaces::NodeParametersInterface::register_param_change_callback(rclcpp::node_interfaces::NodeParametersInterface::OnParametersSetCallbackType)[m[K’ is deprecated: use set_on_parameters_set_callback() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[Kthis->node_parameters_->register_param_change_callback[m[K(std::forward<CallbackT>(callback));
+   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:49:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_interfaces/node_parameters_interface.hpp:181:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Kregister_param_change_callback[m[K(OnParametersSetCallbackType callback) = 0;
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:1206:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_impl.hpp:416:3:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void rclcpp::node_interfaces::NodeParametersInterface::register_param_change_callback(rclcpp::node_interfaces::NodeParametersInterface::OnParametersSetCallbackType)[m[K’ is deprecated: use set_on_parameters_set_callback() instead [[01;35m[K-Wdeprecated-declarations[m[K]
+   [01;35m[Kthis[m[K->node_parameters_->register_param_change_callback(std::forward<CallbackT>(callback));
+   [01;35m[K^~~~[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/node.hpp:49:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/include/image_rotate/image_rotate_node.hpp:35[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate/src/image_rotate_node.cpp:42[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/node_interfaces/node_parameters_interface.hpp:181:3:[m[K [01;36m[Knote: [m[Kdeclared here
+   [01;36m[Kregister_param_change_callback[m[K(OnParametersSetCallbackType callback) = 0;
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

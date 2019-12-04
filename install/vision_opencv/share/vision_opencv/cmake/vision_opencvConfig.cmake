@@ -1,0 +1,1 @@
+/home/portia/ros2Bot_ws/build/vision_opencv/ament_cmake_core/vision_opencvConfig.cmake
