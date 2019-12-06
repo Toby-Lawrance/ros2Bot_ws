@@ -1,0 +1,92 @@
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:33:2:[m[K [01;31m[Kerror: [m[K‘[01m[KVideoCapture[m[K’ does not name a type
+  [01;31m[KVideoCapture[m[K cap;
+  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:[m[K In constructor ‘[01m[KCameraDriver::CameraDriver(int, int, int)[m[K’:
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_info_managers[m[K’ was not declared in this scope
+         cinfo_manager_ = make_shared<[01;31m[Kcamera_info_managers[m[K::CameraInfoManager>(this);
+                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:38:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_manager_[m[K’
+         cinfo_manager_ = make_shared<[01;36m[Kcamera_info_managers[m[K::CameraInfoManager>(this);
+                                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                                      [32m[Kcinfo_manager_[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+         cinfo_manager_ = [01;31m[Kmake_shared<camera_info_managers::CameraInfoManager>[m[K(this);
+                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCameraDriver::make_shared<<expression error> >(CameraDriver*)[m[K’
+         cinfo_manager_ = make_shared<camera_info_managers::CameraInfoManager>(this[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/dashing/include/rclcpp/context.hpp:33:0[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/contexts/default_context.hpp:18[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executor.hpp:32[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:1[m[K:
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:78:3:[m[K [01;36m[Knote: [m[Kcandidate: template<class ... Args> static std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...)
+   [01;36m[Km[m[Kake_shared(Args && ... args) \
+   [01;36m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:86:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[K__RCLCPP_MAKE_SHARED_DEFINITION[m[K’
+   [01;36m[K__RCLCPP_MAKE_SHARED_DEFINITION[m[K(__VA_ARGS__)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:37:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K’
+   [01;36m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K(__VA_ARGS__) \
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K’
+   [01;36m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(Node)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:78:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+   [01;36m[Km[m[Kake_shared(Args && ... args) \
+   [01;36m[K^[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:86:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[K__RCLCPP_MAKE_SHARED_DEFINITION[m[K’
+   [01;36m[K__RCLCPP_MAKE_SHARED_DEFINITION[m[K(__VA_ARGS__)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/macros.hpp:37:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K’
+   [01;36m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K(__VA_ARGS__) \
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K’
+   [01;36m[KRCLCPP_SMART_PTR_DEFINITIONS[m[K(Node)
+   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+         cinfo_manager_ = make_shared<camera_info_managers::CameraInfoManager>(this[01;31m[K)[m[K;
+                                                                                   [01;31m[K^[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+         [01;31m[Kcap[m[K.open(0);
+         [01;31m[K^~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:22:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbcmp[m[K’
+         [01;36m[Kcap[m[K.open(0);
+         [01;36m[K^~~[m[K
+         [32m[Kbcmp[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[KCAP_PROP_FRAME_WIDTH[m[K’ was not declared in this scope
+         cap.set([01;31m[KCAP_PROP_FRAME_WIDTH[m[K, width);
+                 [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[KCAP_PROP_FRAME_HEIGHT[m[K’ was not declared in this scope
+         cap.set([01;31m[KCAP_PROP_FRAME_HEIGHT[m[K, height);
+                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:28:69:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid CameraDriver::ImgCallBack()[m[K’
+         timer = this->create_wall_timer(delay, bind(ImgCallBack,this[01;31m[K)[m[K);
+                                                                     [01;31m[K^[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:42:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  void [01;36m[KImgCallBack[m[K()
+       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:15:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KframeRate[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+     CameraDriver(int width, int height, int [01;35m[KframeRate[m[K) : Node("usb_cam_driver")
+                                             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:[m[K In member function ‘[01m[Kvoid CameraDriver::ImgCallBack()[m[K’:
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:44:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kcap[m[K’ was not declared in this scope
+      [01;31m[Kcap[m[K >> frame;
+      [01;31m[K^~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:44:6:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbcmp[m[K’
+      [01;36m[Kcap[m[K >> frame;
+      [01;36m[K^~~[m[K
+      [32m[Kbcmp[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:[m[K In member function ‘[01m[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > > CameraDriver::ConvertFrameToMessage(cv::Mat)[m[K’:
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:64:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_msg_[m[K’ was not declared in this scope
+         [01;31m[Kimage_msg_[m[K = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:64:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kimage_msg[m[K’
+         [01;36m[Kimage_msg_[m[K = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
+         [01;36m[K^~~~~~~~~~[m[K
+         [32m[Kimage_msg[m[K
+make[2]: *** [CMakeFiles/cam_node.dir/src/cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cam_node.dir/all] Error 2
+make: *** [all] Error 2

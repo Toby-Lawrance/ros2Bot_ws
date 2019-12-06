@@ -1,0 +1,446 @@
+[1.873s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'usb_cam']
+[1.874s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87c1e5c0>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['usb_cam'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87c1e5c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87c1e8d0>)
+[2.376s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/portia/ros2Bot_ws'
+[2.383s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'ignore'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'ignore_ament_install'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['colcon_pkg']
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'colcon_pkg'
+[2.388s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['colcon_meta']
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'colcon_meta'
+[2.389s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['ros']
+[2.390s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'ros'
+[2.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['cmake', 'python']
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'cmake'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'python'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extensions ['python_setup_py']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws) by extension 'python_setup_py'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/build) by extension 'ignore'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/build) ignored
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/install) by extension 'ignore'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/install) ignored
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.564s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/log) by extension 'ignore'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/log) ignored
+[2.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'ignore'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'ignore_ament_install'
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['colcon_pkg']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'colcon_pkg'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['colcon_meta']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'colcon_meta'
+[2.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['ros']
+[2.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'ros'
+[2.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['cmake', 'python']
+[2.580s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'cmake'
+[2.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'python'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extensions ['python_setup_py']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src) by extension 'python_setup_py'
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'ignore'
+[2.592s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'ignore_ament_install'
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['colcon_pkg']
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'colcon_pkg'
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['colcon_meta']
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'colcon_meta'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['ros']
+[2.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'ros'
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['cmake', 'python']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'cmake'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'python'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extensions ['python_setup_py']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK) by extension 'python_setup_py'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[2.607s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[2.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[2.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[2.610s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[2.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[2.645s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[2.650s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extension 'ignore'
+[2.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extension 'ignore_ament_install'
+[2.653s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extensions ['colcon_pkg']
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extension 'colcon_pkg'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extensions ['colcon_meta']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extension 'colcon_meta'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extensions ['ros']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver) by extension 'ros'
+[2.668s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver' with type 'ros.ament_cmake' and name 'hls_lfcd_lds_driver'
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'ignore'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'ignore_ament_install'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['colcon_pkg']
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'colcon_pkg'
+[2.677s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['colcon_meta']
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'colcon_meta'
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['ros']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'ros'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['cmake', 'python']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'cmake'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'python'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extensions ['python_setup_py']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline) by extension 'python_setup_py'
+[2.688s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/camera_calibration) by extension 'ignore'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/camera_calibration) ignored
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[2.693s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extension 'ignore'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[2.694s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[2.697s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extensions ['ros']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc) by extension 'ros'
+[2.715s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[2.720s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extension 'colcon_meta'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline) by extension 'ros'
+[2.737s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[2.742s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[2.743s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extension 'ignore'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extension 'ignore_ament_install'
+[2.744s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extensions ['colcon_pkg']
+[2.745s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extension 'colcon_pkg'
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extensions ['colcon_meta']
+[2.746s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extension 'colcon_meta'
+[2.747s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extensions ['ros']
+[2.748s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_proc) by extension 'ros'
+[2.761s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extension 'ignore'
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extension 'colcon_pkg'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extensions ['colcon_meta']
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extension 'colcon_meta'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extensions ['ros']
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher) by extension 'ros'
+[2.784s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[2.789s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[2.790s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extension 'ignore'
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[2.793s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extension 'colcon_pkg'
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extensions ['colcon_meta']
+[2.794s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extension 'colcon_meta'
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extensions ['ros']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate) by extension 'ros'
+[2.810s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[2.815s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[2.816s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_view) by extension 'ignore'
+[2.817s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/image_view) ignored
+[2.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/stereo_image_proc) by extension 'ignore'
+[2.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/stereo_image_proc) ignored
+[2.822s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'ignore'
+[2.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[2.825s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[2.826s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'colcon_pkg'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['colcon_meta']
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'colcon_meta'
+[2.828s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['ros']
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'ros'
+[2.829s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[2.830s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'cmake'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'python'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extensions ['python_setup_py']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/image_pipeline/wiki_files) by extension 'python_setup_py'
+[2.838s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.839s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'ignore'
+[2.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'ignore_ament_install'
+[2.841s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['colcon_pkg']
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'colcon_pkg'
+[2.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['colcon_meta']
+[2.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'colcon_meta'
+[2.844s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['ros']
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'ros'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['cmake', 'python']
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'cmake'
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'python'
+[2.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extensions ['python_setup_py']
+[2.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3) by extension 'python_setup_py'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extension 'ignore'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[2.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[2.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extensions ['ros']
+[2.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3) by extension 'ros'
+[2.870s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[2.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[2.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[2.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[2.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[2.877s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[2.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[2.888s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[2.890s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[2.891s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[2.892s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[2.895s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[2.896s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[2.896s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[2.902s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[2.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[2.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[2.906s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[2.907s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[2.908s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[2.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[2.910s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[2.911s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description) by extension 'ros'
+[2.920s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[2.922s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[2.923s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[2.924s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[2.925s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[2.926s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[2.927s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[2.928s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[2.937s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[2.939s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[2.940s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[2.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[2.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[2.943s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[2.944s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[2.945s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node) by extension 'ros'
+[2.964s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[2.969s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.970s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[2.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[2.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[2.973s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[2.974s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[2.975s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[2.994s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[2.996s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.997s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extension 'ignore'
+[2.998s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[2.999s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[3.000s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extension 'colcon_pkg'
+[3.001s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extensions ['colcon_meta']
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extension 'colcon_meta'
+[3.002s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extensions ['ros']
+[3.003s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/turtlebot3_msgs) by extension 'ros'
+[3.013s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[3.015s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.016s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'ignore'
+[3.017s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'ignore_ament_install'
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['colcon_pkg']
+[3.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'colcon_pkg'
+[3.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['colcon_meta']
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'colcon_meta'
+[3.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['ros']
+[3.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'ros'
+[3.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['cmake', 'python']
+[3.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'cmake'
+[3.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'python'
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extensions ['python_setup_py']
+[3.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv) by extension 'python_setup_py'
+[3.030s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.032s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extension 'ignore'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[3.033s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[3.036s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extensions ['ros']
+[3.038s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge) by extension 'ros'
+[3.054s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extension 'ignore'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[3.063s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[3.064s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[3.065s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extensions ['ros']
+[3.066s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry) by extension 'ros'
+[3.076s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[3.078s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extension 'ignore'
+[3.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[3.081s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[3.082s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[3.083s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[3.084s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extensions ['ros']
+[3.085s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests) by extension 'ros'
+[3.100s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[3.103s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.104s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extension 'ignore'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[3.105s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[3.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[3.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[3.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[3.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extensions ['ros']
+[3.111s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv) by extension 'ros'
+[3.122s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[3.124s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extensions ['ignore', 'ignore_ament_install']
+[3.125s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extension 'ignore'
+[3.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extension 'ignore_ament_install'
+[3.126s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extensions ['colcon_pkg']
+[3.127s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extension 'colcon_pkg'
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extensions ['colcon_meta']
+[3.128s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extension 'colcon_meta'
+[3.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extensions ['ros']
+[3.129s] Level 1:colcon.colcon_core.package_identification:_identify(/home/portia/ros2Bot_ws/usb_cam) by extension 'ros'
+[3.141s] DEBUG:colcon.colcon_core.package_identification:Package '/home/portia/ros2Bot_ws/usb_cam' with type 'ros.ament_cmake' and name 'usb_cam'
+[3.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.171s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_rotate depends on cv_bridge which has version 2.1.2: constraints {}
+[3.173s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_cartographer which has version 2.0.1: constraints {}
+[3.174s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_navigation2 which has version 2.0.1: constraints {}
+[3.174s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_bringup which has version 2.0.1: constraints {}
+[3.175s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_description which has version 2.0.1: constraints {}
+[3.176s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_teleop which has version 2.0.1: constraints {}
+[3.177s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3 depends on turtlebot3_node which has version 2.0.1: constraints {}
+[3.178s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3_node depends on turtlebot3_msgs which has version 2.2.0: constraints {}
+[3.179s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3_node depends on dynamixel_sdk which has version 3.7.20: constraints {}
+[3.180s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:opencv_tests depends on cv_bridge which has version 2.1.2: constraints {}
+[3.181s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:usb_cam depends on cv_bridge which has version 2.1.2: constraints {}
+[3.181s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3_bringup depends on turtlebot3_description which has version 2.0.1: constraints {}
+[3.182s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3_bringup depends on hls_lfcd_lds_driver which has version 2.0.0: constraints {}
+[3.182s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:turtlebot3_bringup depends on turtlebot3_node which has version 2.0.1: constraints {}
+[3.183s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_proc depends on cv_bridge which has version 2.1.2: constraints {}
+[3.183s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_proc depends on image_geometry which has version 2.1.2: constraints {}
+[3.184s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_publisher depends on cv_bridge which has version 2.1.2: constraints {}
+[3.184s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_publisher depends on image_geometry which has version 2.1.2: constraints {}
+[3.185s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:depth_image_proc depends on cv_bridge which has version 2.1.2: constraints {}
+[3.185s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:depth_image_proc depends on image_geometry which has version 2.1.2: constraints {}
+[3.186s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_pipeline depends on image_proc which has version 1.12.23: constraints {}
+[3.186s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_pipeline depends on image_rotate which has version 2.0.0: constraints {}
+[3.186s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_pipeline depends on depth_image_proc which has version 2.0.0: constraints {}
+[3.187s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:image_pipeline depends on image_publisher which has version 2.0.0: constraints {}
+[3.188s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:vision_opencv depends on cv_bridge which has version 2.1.2: constraints {}
+[3.188s] Level 1:colcon.colcon_core.package_augmentation.check_dependency_constraint:vision_opencv depends on image_geometry which has version 2.1.2: constraints {}
+[3.207s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cv_bridge' in '/home/portia/ros2Bot_ws/src/vision_opencv/cv_bridge'
+[3.208s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'dynamixel_sdk' in '/home/portia/ros2Bot_ws/src/DynamixelSDK/dynamixel_sdk'
+[3.208s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'hls_lfcd_lds_driver' in '/home/portia/ros2Bot_ws/src/hls_lfcd_lds_driver'
+[3.208s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in '/home/portia/ros2Bot_ws/src/vision_opencv/image_geometry'
+[3.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_cartographer' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_cartographer'
+[3.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_description' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_description'
+[3.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_msgs' in '/home/portia/ros2Bot_ws/src/turtlebot3_msgs'
+[3.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_navigation2' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_navigation2'
+[3.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_teleop' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_teleop'
+[3.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'depth_image_proc' in '/home/portia/ros2Bot_ws/src/image_pipeline/depth_image_proc'
+[3.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_proc' in '/home/portia/ros2Bot_ws/src/image_pipeline/image_proc'
+[3.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_publisher' in '/home/portia/ros2Bot_ws/src/image_pipeline/image_publisher'
+[3.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_rotate' in '/home/portia/ros2Bot_ws/src/image_pipeline/image_rotate'
+[3.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'opencv_tests' in '/home/portia/ros2Bot_ws/src/vision_opencv/opencv_tests'
+[3.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_node' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_node'
+[3.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in '/home/portia/ros2Bot_ws/src/vision_opencv/vision_opencv'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_pipeline' in '/home/portia/ros2Bot_ws/src/image_pipeline/image_pipeline'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3_bringup' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3_bringup'
+[3.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turtlebot3' in '/home/portia/ros2Bot_ws/src/turtlebot3/turtlebot3'
+[3.236s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_args' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target' from command line to 'None'
+[3.237s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.238s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[3.238s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_clean_first' from command line to 'False'
+[3.238s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'cmake_force_configure' from command line to 'False'
+[3.238s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'ament_cmake_args' from command line to 'None'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[3.239s] Level 5:colcon.colcon_core.verb:set package 'usb_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.239s] DEBUG:colcon.colcon_core.verb:Building package 'usb_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/portia/ros2Bot_ws/build/usb_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/portia/ros2Bot_ws/install/usb_cam', 'merge_install': False, 'path': '/home/portia/ros2Bot_ws/usb_cam', 'symlink_install': True, 'test_result_base': None}
+[3.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.258s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/portia/ros2Bot_ws/usb_cam' with build type 'ament_cmake'
+[3.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/portia/ros2Bot_ws/usb_cam'
+[3.330s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.331s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.358s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/portia/ros2OnBot_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[3.365s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.366s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.367s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.367s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.368s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.369s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.370s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.370s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/image_proc' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.371s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/depth_image_proc' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.371s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/camera_info_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.372s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/image_transport' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.373s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/image_geometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.373s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.374s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/dynamixel_sdk' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.375s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/cv_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.375s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/cpp_pubsub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.376s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/portia/ros2OnBot_ws/install/camera_calibration_parsers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[3.384s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.385s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.386s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.386s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.387s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.388s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.389s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.389s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/image_proc' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.390s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/depth_image_proc' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.390s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/camera_info_manager' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.391s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/image_transport' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/image_geometry' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.393s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/dynamixel_sdk' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.394s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/cv_bridge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.394s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/cpp_pubsub' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.395s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/portia/ros2OnBot_ws/install/camera_calibration_parsers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[3.406s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/dashing'
+[3.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/portia/ros2Bot_ws/build/usb_cam': CMAKE_PREFIX_PATH=/home/portia/ros2Bot_ws/install/cv_bridge:/home/portia/ros2Bot_ws/install/vision_opencv:/home/portia/ros2Bot_ws/install/usb_cam:/home/portia/ros2Bot_ws/install/turtlebot3:/home/portia/ros2Bot_ws/install/turtlebot3_bringup:/home/portia/ros2Bot_ws/install/turtlebot3_node:/home/portia/ros2Bot_ws/install/turtlebot3_navigation2:/home/portia/ros2Bot_ws/install/turtlebot3_msgs:/home/portia/ros2Bot_ws/install/turtlebot3_description:/home/portia/ros2Bot_ws/install/turtlebot3_cartographer:/home/portia/ros2Bot_ws/install/image_pipeline:/home/portia/ros2Bot_ws/install/image_rotate:/home/portia/ros2Bot_ws/install/image_publisher:/home/portia/ros2Bot_ws/install/image_proc:/home/portia/ros2Bot_ws/install/depth_image_proc:/home/portia/ros2Bot_ws/install/image_geometry:/home/portia/ros2Bot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2Bot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/turtlebot3:/home/portia/ros2OnBot_ws/install/turtlebot3_bringup:/home/portia/ros2OnBot_ws/install/turtlebot3_node:/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs:/home/portia/ros2OnBot_ws/install/turtlebot3_description:/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer:/home/portia/ros2OnBot_ws/install/image_proc:/home/portia/ros2OnBot_ws/install/depth_image_proc:/home/portia/ros2OnBot_ws/install/camera_info_manager:/home/portia/ros2OnBot_ws/install/image_transport:/home/portia/ros2OnBot_ws/install/image_geometry:/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2OnBot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/cv_bridge:/home/portia/ros2OnBot_ws/install/cpp_pubsub:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers:/home/portia/turtlebot3_ws/install/turtlebot3:/home/portia/turtlebot3_ws/install/turtlebot3_bringup:/home/portia/turtlebot3_ws/install/turtlebot3_node:/home/portia/turtlebot3_ws/install/turtlebot3_msgs:/home/portia/turtlebot3_ws/install/turtlebot3_description:/home/portia/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/portia/turtlebot3_ws/install/dynamixel_sdk:/home/portia/ros2Bot_ws/install/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/opencv_tests:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing LD_LIBRARY_PATH=/home/portia/ros2Bot_ws/install/cv_bridge/lib:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2Bot_ws/install/image_rotate/lib:/home/portia/ros2Bot_ws/install/image_publisher/lib:/home/portia/ros2Bot_ws/install/image_proc/lib:/home/portia/ros2Bot_ws/install/depth_image_proc/lib:/home/portia/ros2Bot_ws/install/image_geometry/lib:/home/portia/ros2Bot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2OnBot_ws/install/image_proc/lib:/home/portia/ros2OnBot_ws/install/depth_image_proc/lib:/home/portia/ros2OnBot_ws/install/camera_info_manager/lib:/home/portia/ros2OnBot_ws/install/image_transport/lib:/home/portia/ros2OnBot_ws/install/image_geometry/lib:/home/portia/ros2OnBot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/cv_bridge/lib:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers/lib:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/portia/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/home/portia/ros2Bot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/opencv_tests:/home/portia/ros2Bot_ws/install/opencv_tests/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/build/turtlebot3_teleop:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/build/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/portia/ros2Bot_ws/build/usb_cam -- -j4 -l4
+[20.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/portia/ros2Bot_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=/home/portia/ros2Bot_ws/install/cv_bridge:/home/portia/ros2Bot_ws/install/vision_opencv:/home/portia/ros2Bot_ws/install/usb_cam:/home/portia/ros2Bot_ws/install/turtlebot3:/home/portia/ros2Bot_ws/install/turtlebot3_bringup:/home/portia/ros2Bot_ws/install/turtlebot3_node:/home/portia/ros2Bot_ws/install/turtlebot3_navigation2:/home/portia/ros2Bot_ws/install/turtlebot3_msgs:/home/portia/ros2Bot_ws/install/turtlebot3_description:/home/portia/ros2Bot_ws/install/turtlebot3_cartographer:/home/portia/ros2Bot_ws/install/image_pipeline:/home/portia/ros2Bot_ws/install/image_rotate:/home/portia/ros2Bot_ws/install/image_publisher:/home/portia/ros2Bot_ws/install/image_proc:/home/portia/ros2Bot_ws/install/depth_image_proc:/home/portia/ros2Bot_ws/install/image_geometry:/home/portia/ros2Bot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2Bot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/turtlebot3:/home/portia/ros2OnBot_ws/install/turtlebot3_bringup:/home/portia/ros2OnBot_ws/install/turtlebot3_node:/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs:/home/portia/ros2OnBot_ws/install/turtlebot3_description:/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer:/home/portia/ros2OnBot_ws/install/image_proc:/home/portia/ros2OnBot_ws/install/depth_image_proc:/home/portia/ros2OnBot_ws/install/camera_info_manager:/home/portia/ros2OnBot_ws/install/image_transport:/home/portia/ros2OnBot_ws/install/image_geometry:/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2OnBot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/cv_bridge:/home/portia/ros2OnBot_ws/install/cpp_pubsub:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers:/home/portia/turtlebot3_ws/install/turtlebot3:/home/portia/turtlebot3_ws/install/turtlebot3_bringup:/home/portia/turtlebot3_ws/install/turtlebot3_node:/home/portia/turtlebot3_ws/install/turtlebot3_msgs:/home/portia/turtlebot3_ws/install/turtlebot3_description:/home/portia/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/portia/turtlebot3_ws/install/dynamixel_sdk:/home/portia/ros2Bot_ws/install/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/opencv_tests:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing LD_LIBRARY_PATH=/home/portia/ros2Bot_ws/install/cv_bridge/lib:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2Bot_ws/install/image_rotate/lib:/home/portia/ros2Bot_ws/install/image_publisher/lib:/home/portia/ros2Bot_ws/install/image_proc/lib:/home/portia/ros2Bot_ws/install/depth_image_proc/lib:/home/portia/ros2Bot_ws/install/image_geometry/lib:/home/portia/ros2Bot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2OnBot_ws/install/image_proc/lib:/home/portia/ros2OnBot_ws/install/depth_image_proc/lib:/home/portia/ros2OnBot_ws/install/camera_info_manager/lib:/home/portia/ros2OnBot_ws/install/image_transport/lib:/home/portia/ros2OnBot_ws/install/image_geometry/lib:/home/portia/ros2OnBot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/cv_bridge/lib:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers/lib:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/portia/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/lib PYTHONPATH=/home/portia/ros2Bot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/opencv_tests:/home/portia/ros2Bot_ws/install/opencv_tests/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/build/turtlebot3_teleop:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/build/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages /usr/bin/cmake --build /home/portia/ros2Bot_ws/build/usb_cam -- -j4 -l4
+[20.562s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[20.566s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.619s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.619s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.620s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[20.620s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ros2Bot_ws/install/local_setup.ps1'
+[20.639s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/portia/ros2Bot_ws/install/_local_setup_util_ps1.py'
+[20.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ros2Bot_ws/install/setup.ps1'
+[20.689s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ros2Bot_ws/install/local_setup.sh'
+[20.695s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/portia/ros2Bot_ws/install/_local_setup_util_sh.py'
+[20.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ros2Bot_ws/install/setup.sh'
+[20.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ros2Bot_ws/install/local_setup.bash'
+[20.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ros2Bot_ws/install/setup.bash'
+[20.775s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/portia/ros2Bot_ws/install/local_setup.zsh'
+[20.782s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/portia/ros2Bot_ws/install/setup.zsh'

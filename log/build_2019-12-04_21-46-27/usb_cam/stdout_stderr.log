@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target cam_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cam_node.dir/src/cam_node.cpp.o[0m
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:[m[K In constructor ‘[01m[KCameraDriver::CameraDriver(int, int, int)[m[K’:
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:31:59:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid CameraDriver::ImgCallBack()[m[K’
+         timer = this->create_wall_timer(delay, ImgCallBack[01;31m[K)[m[K;
+                                                           [01;31m[K^[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:45:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  void [01;36m[KImgCallBack[m[K()
+       [01;36m[K^~~~~~~~~~~[m[K
+CMakeFiles/cam_node.dir/build.make:62: recipe for target 'CMakeFiles/cam_node.dir/src/cam_node.cpp.o' failed
+make[2]: *** [CMakeFiles/cam_node.dir/src/cam_node.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/cam_node.dir/all' failed
+make[1]: *** [CMakeFiles/cam_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,10 @@
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:[m[K In constructor ‘[01m[KCameraDriver::CameraDriver(int, int, int)[m[K’:
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:31:69:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid CameraDriver::ImgCallBack()[m[K’
+         timer = this->create_wall_timer(delay, bind(ImgCallBack,this[01;31m[K)[m[K);
+                                                                     [01;31m[K^[m[K
+[01m[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:45:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  void [01;36m[KImgCallBack[m[K()
+       [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cam_node.dir/src/cam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cam_node.dir/all] Error 2
+make: *** [all] Error 2

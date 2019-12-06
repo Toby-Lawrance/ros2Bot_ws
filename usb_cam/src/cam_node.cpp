@@ -1,13 +1,17 @@
 #include "rclcpp/rclcpp.hpp"
 #include<iostream>
+#include<chrono>
 #include<image_transport/image_transport.h>
 #include<opencv2/core.hpp>
+#include<opencv2/imgproc.hpp>
+#include<opencv2/opencv.hpp>
 #include<cv_bridge/cv_bridge.h>
 #include<sensor_msgs/image_encodings.hpp>
-#include <camera_info_manager/camera_info_manager.h>
+#include<camera_info_manager/camera_info_manager.h>
 
 using namespace std;
 using namespace cv;
+using namespace chrono;
 
 class CameraDriver : public rclcpp::Node
 {
@@ -15,45 +19,47 @@ public:
     CameraDriver(int width, int height, int frameRate) : Node("usb_cam_driver")
     {
         rmw_qos_profile_t custom_qos_profile = rmw_qos_profile_default;
-        camera_pub = image_transport::create_camera_publisher(this,"image_raw",custom_qos_profile);
+        camera_pub = image_transport::create_publisher(this,"image_raw",custom_qos_profile);
 
-        cinfo_manager_ = make_shared<camera_info_managers::CameraInfoManager>(this);
+        //cinfo_manager_ = make_shared<camera_info_manager::CameraInfoManager>(this);
 
         cap.open(0);
-        cap.set(CAP_PROP_FRAME_WIDTH, width);
-        cap.set(CAP_PROP_FRAME_HEIGHT, height);
+        cap.set(CV_CAP_PROP_FRAME_WIDTH, width);
+        cap.set(CV_CAP_PROP_FRAME_HEIGHT, height);
+	cap.set(CV_CAP_PROP_FPS, frameRate);
 
-        int delay = 1000/30;
+        auto delay = milliseconds(1000/frameRate);
 
-        timer = this->create_wall_timer(delay, bind(ImgCallBack,this));
+        timer = this->create_wall_timer(delay, bind(&CameraDriver::ImgCallBack,this));
     }
 private:
-    rclcpp::TimerBase::SharedPtr timer;
+    	rclcpp::TimerBase::SharedPtr timer;
 	Mat frame;
-	VideoCapture cap;
-	cv_bridge::CvImage img_bridge;
-	int img_h;
-	int img_w;
 
-    shared_ptr<camera_info_manager::CameraInfoManager> cinfo_manager_;
-	image_transport::CameraPublisher camera_pub;
+	cv::VideoCapture cap;
+
+	cv_bridge::CvImage img_bridge;
+
+    	//shared_ptr<camera_info_manager::CameraInfoManager> cinfo_manager_;
+	image_transport::Publisher camera_pub;
 	shared_ptr<sensor_msgs::msg::Image> image_msg;
 
 	void ImgCallBack()
     {
 	    cap >> frame;
+	    //cout << "Received a frame" << endl;
 	    if(!frame.empty())
         {
 	        image_msg = ConvertFrameToMessage(frame);
 
-            sensor_msgs::msg::CameraInfo::SharedPtr camera_info_msg_(new sensor_msgs::msg::CameraInfo(cinfo_manager_->getCameraInfo()));
+            //sensor_msgs::msg::CameraInfo::SharedPtr camera_info_msg_(new sensor_msgs::msg::CameraInfo(cinfo_manager_->getCameraInfo()));
 
 	        rclcpp::Time timestamp = this->get_clock()->now();
 
 	        image_msg->header.stamp = timestamp;
-            camera_info_msg_->header.stamp = timestamp;
+            //camera_info_msg_->header.stamp = timestamp;
 
-            camera_pub.publish(image_msg, camera_info_msg_);
+            camera_pub.publish(image_msg);
         }
     }
 
@@ -61,7 +67,7 @@ private:
 	{
         std_msgs::msg::Header header;
         img_bridge = cv_bridge::CvImage(header, sensor_msgs::image_encodings::BGR8, frame);
-        image_msg_ = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
+        image_msg = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
         return image_msg;
 	}
 };

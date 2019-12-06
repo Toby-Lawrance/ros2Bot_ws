@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.001947] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict([('cv_bridge', '/home/portia/ros2Bot_ws/install/cv_bridge')])}
+[0.004083] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.098382] (-) TimerEvent: {}
+[0.209089] (-) TimerEvent: {}
+[0.220982] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.226218] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[0.232078] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/portia/ros2Bot_ws/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/portia/ros2Bot_ws/build/usb_cam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/portia'), ('USER', 'portia'), ('SSH_CLIENT', '192.168.137.1 55825 22'), ('LD_LIBRARY_PATH', '/home/portia/ros2Bot_ws/install/cv_bridge/lib:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2Bot_ws/install/image_rotate/lib:/home/portia/ros2Bot_ws/install/image_publisher/lib:/home/portia/ros2Bot_ws/install/image_proc/lib:/home/portia/ros2Bot_ws/install/depth_image_proc/lib:/home/portia/ros2Bot_ws/install/image_geometry/lib:/home/portia/ros2Bot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib:/home/portia/ros2OnBot_ws/install/image_proc/lib:/home/portia/ros2OnBot_ws/install/depth_image_proc/lib:/home/portia/ros2OnBot_ws/install/camera_info_manager/lib:/home/portia/ros2OnBot_ws/install/image_transport/lib:/home/portia/ros2OnBot_ws/install/image_geometry/lib:/home/portia/ros2OnBot_ws/install/dynamixel_sdk/lib:/home/portia/ros2OnBot_ws/install/cv_bridge/lib:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers/lib:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/portia/turtlebot3_ws/install/dynamixel_sdk/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/portia/ros2Bot_ws/src'), ('HOME', '/home/portia'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/portia/ros2Bot_ws/install:/home/portia/ros2OnBot_ws/install:/home/portia/turtlebot3_ws/install'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'portia'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm'), ('PATH', '/home/portia/ros2Bot_ws/install/image_publisher/bin:/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/portia/ros2Bot_ws/install/vision_opencv:/home/portia/ros2Bot_ws/install/turtlebot3:/home/portia/ros2Bot_ws/install/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/turtlebot3_bringup:/home/portia/ros2Bot_ws/install/turtlebot3_node:/home/portia/ros2Bot_ws/install/turtlebot3_navigation2:/home/portia/ros2Bot_ws/install/turtlebot3_msgs:/home/portia/ros2Bot_ws/install/turtlebot3_description:/home/portia/ros2Bot_ws/install/turtlebot3_cartographer:/home/portia/ros2Bot_ws/install/opencv_tests:/home/portia/ros2Bot_ws/install/image_rotate:/home/portia/ros2Bot_ws/install/image_publisher:/home/portia/ros2Bot_ws/install/image_proc:/home/portia/ros2Bot_ws/install/depth_image_proc:/home/portia/ros2Bot_ws/install/image_geometry:/home/portia/ros2Bot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2Bot_ws/install/dynamixel_sdk:/home/portia/ros2Bot_ws/install/cv_bridge:/home/portia/ros2OnBot_ws/install/turtlebot3:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop:/home/portia/ros2OnBot_ws/install/turtlebot3_bringup:/home/portia/ros2OnBot_ws/install/turtlebot3_node:/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs:/home/portia/ros2OnBot_ws/install/turtlebot3_description:/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer:/home/portia/ros2OnBot_ws/install/image_proc:/home/portia/ros2OnBot_ws/install/depth_image_proc:/home/portia/ros2OnBot_ws/install/camera_info_manager:/home/portia/ros2OnBot_ws/install/image_transport:/home/portia/ros2OnBot_ws/install/image_geometry:/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2OnBot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/cv_bridge:/home/portia/ros2OnBot_ws/install/cpp_pubsub:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers:/home/portia/turtlebot3_ws/install/turtlebot3:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_bringup:/home/portia/turtlebot3_ws/install/turtlebot3_node:/home/portia/turtlebot3_ws/install/turtlebot3_msgs:/home/portia/turtlebot3_ws/install/turtlebot3_description:/home/portia/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/portia/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/dashing'), ('ROS_DOMAIN_ID', '42'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_ALL', 'en_US.UTF-8'), ('TURTLEBOT3_MODEL', 'burger'), ('PWD', '/home/portia/ros2Bot_ws/build/usb_cam'), ('SSH_CONNECTION', '192.168.137.1 55825 192.168.137.253 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/portia/ros2Bot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/build/opencv_tests:/home/portia/ros2Bot_ws/install/opencv_tests/lib/python3.6/site-packages:/home/portia/ros2Bot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/build/turtlebot3_teleop:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/image_geometry/lib/python3.6/site-packages:/home/portia/ros2OnBot_ws/install/cv_bridge/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/build/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.6/site-packages:/home/portia/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('CMAKE_PREFIX_PATH', '/home/portia/ros2Bot_ws/install/cv_bridge:/home/portia/ros2Bot_ws/install/vision_opencv:/home/portia/ros2Bot_ws/install/turtlebot3:/home/portia/ros2Bot_ws/install/turtlebot3_bringup:/home/portia/ros2Bot_ws/install/turtlebot3_node:/home/portia/ros2Bot_ws/install/turtlebot3_navigation2:/home/portia/ros2Bot_ws/install/turtlebot3_msgs:/home/portia/ros2Bot_ws/install/turtlebot3_description:/home/portia/ros2Bot_ws/install/turtlebot3_cartographer:/home/portia/ros2Bot_ws/install/image_rotate:/home/portia/ros2Bot_ws/install/image_publisher:/home/portia/ros2Bot_ws/install/image_proc:/home/portia/ros2Bot_ws/install/depth_image_proc:/home/portia/ros2Bot_ws/install/image_geometry:/home/portia/ros2Bot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2Bot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/turtlebot3:/home/portia/ros2OnBot_ws/install/turtlebot3_bringup:/home/portia/ros2OnBot_ws/install/turtlebot3_node:/home/portia/ros2OnBot_ws/install/turtlebot3_navigation2:/home/portia/ros2OnBot_ws/install/turtlebot3_msgs:/home/portia/ros2OnBot_ws/install/turtlebot3_description:/home/portia/ros2OnBot_ws/install/turtlebot3_cartographer:/home/portia/ros2Bot_ws/install/turtlebot3_teleop:/home/portia/ros2Bot_ws/install/opencv_tests:/home/portia/ros2OnBot_ws/install/turtlebot3_teleop:/home/portia/turtlebot3_ws/install/turtlebot3_teleop:/opt/ros/dashing:/home/portia/ros2OnBot_ws/install/image_proc:/home/portia/ros2OnBot_ws/install/depth_image_proc:/home/portia/ros2OnBot_ws/install/camera_info_manager:/home/portia/ros2OnBot_ws/install/image_transport:/home/portia/ros2OnBot_ws/install/image_geometry:/home/portia/ros2OnBot_ws/install/hls_lfcd_lds_driver:/home/portia/ros2OnBot_ws/install/dynamixel_sdk:/home/portia/ros2OnBot_ws/install/cv_bridge:/home/portia/ros2OnBot_ws/install/cpp_pubsub:/home/portia/ros2OnBot_ws/install/camera_calibration_parsers:/home/portia/turtlebot3_ws/install/turtlebot3:/home/portia/turtlebot3_ws/install/turtlebot3_bringup:/home/portia/turtlebot3_ws/install/turtlebot3_node:/home/portia/turtlebot3_ws/install/turtlebot3_msgs:/home/portia/turtlebot3_ws/install/turtlebot3_description:/home/portia/turtlebot3_ws/install/hls_lfcd_lds_driver:/home/portia/turtlebot3_ws/install/dynamixel_sdk')]), 'shell': False}
+[0.309428] (-) TimerEvent: {}
+[0.411072] (-) TimerEvent: {}
+[0.424496] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.3 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.511291] (-) TimerEvent: {}
+[0.612733] (-) TimerEvent: {}
+[0.714117] (-) TimerEvent: {}
+[0.739364] (usb_cam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.814357] (-) TimerEvent: {}
+[0.915863] (-) TimerEvent: {}
+[1.017116] (-) TimerEvent: {}
+[1.118453] (-) TimerEvent: {}
+[1.219729] (-) TimerEvent: {}
+[1.320882] (-) TimerEvent: {}
+[1.422047] (-) TimerEvent: {}
+[1.523284] (-) TimerEvent: {}
+[1.624544] (-) TimerEvent: {}
+[1.725700] (-) TimerEvent: {}
+[1.826937] (-) TimerEvent: {}
+[1.928263] (-) TimerEvent: {}
+[2.029401] (-) TimerEvent: {}
+[2.130628] (-) TimerEvent: {}
+[2.231970] (-) TimerEvent: {}
+[2.293440] (usb_cam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.332214] (-) TimerEvent: {}
+[2.384212] (usb_cam) StdoutLine: {'line': b'-- Found image_transport: 2.1.1 (/opt/ros/dashing/share/image_transport/cmake)\n'}
+[2.432488] (-) TimerEvent: {}
+[2.491199] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.7 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[2.532762] (-) TimerEvent: {}
+[2.634106] (-) TimerEvent: {}
+[2.688463] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[2.734396] (-) TimerEvent: {}
+[2.835870] (-) TimerEvent: {}
+[2.937084] (-) TimerEvent: {}
+[3.038324] (-) TimerEvent: {}
+[3.078890] (usb_cam) StdoutLine: {'line': b'-- Found tinyxml2_vendor:  (/opt/ros/dashing/share/tinyxml2_vendor/cmake)\n'}
+[3.138591] (-) TimerEvent: {}
+[3.147378] (usb_cam) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)\n'}
+[3.192076] (usb_cam) StdoutLine: {'line': b'-- Found cv_bridge: 2.1.2 (/home/portia/ros2Bot_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[3.233641] (usb_cam) StdoutLine: {'line': b'-- Found camera_info_manager: 2.1.1 (/opt/ros/dashing/share/camera_info_manager/cmake)\n'}
+[3.238804] (-) TimerEvent: {}
+[3.340262] (-) TimerEvent: {}
+[3.441562] (-) TimerEvent: {}
+[3.534986] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.11 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[3.541889] (-) TimerEvent: {}
+[3.643184] (-) TimerEvent: {}
+[3.744475] (-) TimerEvent: {}
+[3.845555] (-) TimerEvent: {}
+[3.946735] (-) TimerEvent: {}
+[4.048009] (-) TimerEvent: {}
+[4.149306] (-) TimerEvent: {}
+[4.186380] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[4.191736] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.193142] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/portia/ros2Bot_ws/usb_cam/include>\n'}
+[4.197435] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.201047] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.205760] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.208248] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.222750] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.249564] (-) TimerEvent: {}
+[4.347210] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[4.349801] (-) TimerEvent: {}
+[4.358208] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/portia/ros2Bot_ws/build/usb_cam\n'}
+[4.450114] (-) TimerEvent: {}
+[4.527070] (usb_cam) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cam_node\x1b[0m\n'}
+[4.550409] (-) TimerEvent: {}
+[4.651784] (-) TimerEvent: {}
+[4.725078] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cam_node.dir/src/cam_node.cpp.o\x1b[0m\n'}
+[4.752079] (-) TimerEvent: {}
+[4.853434] (-) TimerEvent: {}
+[4.954714] (-) TimerEvent: {}
+[5.056190] (-) TimerEvent: {}
+[5.157420] (-) TimerEvent: {}
+[5.258784] (-) TimerEvent: {}
+[5.360353] (-) TimerEvent: {}
+[5.462279] (-) TimerEvent: {}
+[5.563514] (-) TimerEvent: {}
+[5.664891] (-) TimerEvent: {}
+[5.766370] (-) TimerEvent: {}
+[5.867913] (-) TimerEvent: {}
+[5.969286] (-) TimerEvent: {}
+[6.070780] (-) TimerEvent: {}
+[6.172250] (-) TimerEvent: {}
+[6.273672] (-) TimerEvent: {}
+[6.375222] (-) TimerEvent: {}
+[6.476754] (-) TimerEvent: {}
+[6.578210] (-) TimerEvent: {}
+[6.679751] (-) TimerEvent: {}
+[6.781061] (-) TimerEvent: {}
+[6.882628] (-) TimerEvent: {}
+[6.984157] (-) TimerEvent: {}
+[7.085531] (-) TimerEvent: {}
+[7.186981] (-) TimerEvent: {}
+[7.288517] (-) TimerEvent: {}
+[7.389877] (-) TimerEvent: {}
+[7.491324] (-) TimerEvent: {}
+[7.592856] (-) TimerEvent: {}
+[7.694257] (-) TimerEvent: {}
+[7.795766] (-) TimerEvent: {}
+[7.897141] (-) TimerEvent: {}
+[7.998605] (-) TimerEvent: {}
+[8.100140] (-) TimerEvent: {}
+[8.201495] (-) TimerEvent: {}
+[8.302872] (-) TimerEvent: {}
+[8.404390] (-) TimerEvent: {}
+[8.505738] (-) TimerEvent: {}
+[8.607177] (-) TimerEvent: {}
+[8.708716] (-) TimerEvent: {}
+[8.810110] (-) TimerEvent: {}
+[8.911485] (-) TimerEvent: {}
+[9.012991] (-) TimerEvent: {}
+[9.114571] (-) TimerEvent: {}
+[9.216333] (-) TimerEvent: {}
+[9.317700] (-) TimerEvent: {}
+[9.419187] (-) TimerEvent: {}
+[9.520764] (-) TimerEvent: {}
+[9.622164] (-) TimerEvent: {}
+[9.723725] (-) TimerEvent: {}
+[9.825015] (-) TimerEvent: {}
+[9.926444] (-) TimerEvent: {}
+[10.028004] (-) TimerEvent: {}
+[10.129444] (-) TimerEvent: {}
+[10.230998] (-) TimerEvent: {}
+[10.332506] (-) TimerEvent: {}
+[10.433873] (-) TimerEvent: {}
+[10.535225] (-) TimerEvent: {}
+[10.636731] (-) TimerEvent: {}
+[10.738107] (-) TimerEvent: {}
+[10.839530] (-) TimerEvent: {}
+[10.941061] (-) TimerEvent: {}
+[11.042508] (-) TimerEvent: {}
+[11.144110] (-) TimerEvent: {}
+[11.245532] (-) TimerEvent: {}
+[11.347079] (-) TimerEvent: {}
+[11.448651] (-) TimerEvent: {}
+[11.550177] (-) TimerEvent: {}
+[11.651717] (-) TimerEvent: {}
+[11.753220] (-) TimerEvent: {}
+[11.854660] (-) TimerEvent: {}
+[11.956166] (-) TimerEvent: {}
+[12.057561] (-) TimerEvent: {}
+[12.159027] (-) TimerEvent: {}
+[12.260572] (-) TimerEvent: {}
+[12.361994] (-) TimerEvent: {}
+[12.463368] (-) TimerEvent: {}
+[12.564869] (-) TimerEvent: {}
+[12.666359] (-) TimerEvent: {}
+[12.768020] (-) TimerEvent: {}
+[12.869441] (-) TimerEvent: {}
+[12.970808] (-) TimerEvent: {}
+[13.072171] (-) TimerEvent: {}
+[13.173376] (-) TimerEvent: {}
+[13.274678] (-) TimerEvent: {}
+[13.376017] (-) TimerEvent: {}
+[13.477267] (-) TimerEvent: {}
+[13.578546] (-) TimerEvent: {}
+[13.679873] (-) TimerEvent: {}
+[13.781129] (-) TimerEvent: {}
+[13.882476] (-) TimerEvent: {}
+[13.983899] (-) TimerEvent: {}
+[14.085365] (-) TimerEvent: {}
+[14.186885] (-) TimerEvent: {}
+[14.288400] (-) TimerEvent: {}
+[14.389982] (-) TimerEvent: {}
+[14.491853] (-) TimerEvent: {}
+[14.593255] (-) TimerEvent: {}
+[14.694679] (-) TimerEvent: {}
+[14.796241] (-) TimerEvent: {}
+[14.897705] (-) TimerEvent: {}
+[14.999118] (-) TimerEvent: {}
+[15.100695] (-) TimerEvent: {}
+[15.202126] (-) TimerEvent: {}
+[15.303709] (-) TimerEvent: {}
+[15.405102] (-) TimerEvent: {}
+[15.506590] (-) TimerEvent: {}
+[15.607926] (-) TimerEvent: {}
+[15.709332] (-) TimerEvent: {}
+[15.810747] (-) TimerEvent: {}
+[15.912219] (-) TimerEvent: {}
+[16.013722] (-) TimerEvent: {}
+[16.115151] (-) TimerEvent: {}
+[16.216671] (-) TimerEvent: {}
+[16.318079] (-) TimerEvent: {}
+[16.419454] (-) TimerEvent: {}
+[16.520894] (-) TimerEvent: {}
+[16.567927] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:33:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KVideoCapture\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[16.569277] (usb_cam) StderrLine: {'line': b'  \x1b[01;31m\x1b[KVideoCapture\x1b[m\x1b[K cap;\n'}
+[16.570238] (usb_cam) StderrLine: {'line': b'  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.621198] (-) TimerEvent: {}
+[16.649109] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCameraDriver::CameraDriver(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.650071] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_info_managers\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.650713] (usb_cam) StderrLine: {'line': b'         cinfo_manager_ = make_shared<\x1b[01;31m\x1b[Kcamera_info_managers\x1b[m\x1b[K::CameraInfoManager>(this);\n'}
+[16.651307] (usb_cam) StderrLine: {'line': b'                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.704201] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kcinfo_manager_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.707533] (usb_cam) StderrLine: {'line': b'         cinfo_manager_ = make_shared<\x1b[01;36m\x1b[Kcamera_info_managers\x1b[m\x1b[K::CameraInfoManager>(this);\n'}
+[16.708651] (usb_cam) StderrLine: {'line': b'                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.709467] (usb_cam) StderrLine: {'line': b'                                      \x1b[32m\x1b[Kcinfo_manager_\x1b[m\x1b[K\n'}
+[16.710257] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[16.710988] (usb_cam) StderrLine: {'line': b'         cinfo_manager_ = \x1b[01;31m\x1b[Kmake_shared<camera_info_managers::CameraInfoManager>\x1b[m\x1b[K(this);\n'}
+[16.711877] (usb_cam) StderrLine: {'line': b'                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.712790] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KCameraDriver::make_shared<<expression error> >(CameraDriver*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.713564] (usb_cam) StderrLine: {'line': b'         cinfo_manager_ = make_shared<camera_info_managers::CameraInfoManager>(this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.714382] (usb_cam) StderrLine: {'line': b'                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.715180] (usb_cam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/context.hpp:33:0\x1b[m\x1b[K,\n'}
+[16.716034] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/contexts/default_context.hpp:18\x1b[m\x1b[K,\n'}
+[16.716762] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[16.717501] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors/multi_threaded_executor.hpp:24\x1b[m\x1b[K,\n'}
+[16.718174] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.718855] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/rclcpp.hpp:144\x1b[m\x1b[K,\n'}
+[16.719505] (usb_cam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:1\x1b[m\x1b[K:\n'}
+[16.720305] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:78:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class ... Args> static std::shared_ptr<rclcpp::Node> rclcpp::Node::make_shared(Args&& ...)\n'}
+[16.721062] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Km\x1b[m\x1b[Kake_shared(Args && ... args) \\\n'}
+[16.721698] (-) TimerEvent: {}
+[16.722561] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.724342] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:86:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[K__RCLCPP_MAKE_SHARED_DEFINITION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.725030] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K__RCLCPP_MAKE_SHARED_DEFINITION\x1b[m\x1b[K(__VA_ARGS__)\n'}
+[16.725622] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.726180] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:37:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_SHARED_PTR_DEFINITIONS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.726731] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_SHARED_PTR_DEFINITIONS\x1b[m\x1b[K(__VA_ARGS__) \\\n'}
+[16.727273] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.727961] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_SMART_PTR_DEFINITIONS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.728583] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_SMART_PTR_DEFINITIONS\x1b[m\x1b[K(Node)\n'}
+[16.729142] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.729705] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:78:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.730256] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[Km\x1b[m\x1b[Kake_shared(Args && ... args) \\\n'}
+[16.730797] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.731332] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:86:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[K__RCLCPP_MAKE_SHARED_DEFINITION\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.731971] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K__RCLCPP_MAKE_SHARED_DEFINITION\x1b[m\x1b[K(__VA_ARGS__)\n'}
+[16.732609] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.733159] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/macros.hpp:37:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_SHARED_PTR_DEFINITIONS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.733755] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_SHARED_PTR_DEFINITIONS\x1b[m\x1b[K(__VA_ARGS__) \\\n'}
+[16.734312] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.734858] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/dashing/include/rclcpp/node.hpp:75:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KRCLCPP_SMART_PTR_DEFINITIONS\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.735434] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[KRCLCPP_SMART_PTR_DEFINITIONS\x1b[m\x1b[K(Node)\n'}
+[16.736160] (usb_cam) StderrLine: {'line': b'   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.736740] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:20:83:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[16.737290] (usb_cam) StderrLine: {'line': b'         cinfo_manager_ = make_shared<camera_info_managers::CameraInfoManager>(this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.737844] (usb_cam) StderrLine: {'line': b'                                                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.738384] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.738931] (usb_cam) StderrLine: {'line': b'         \x1b[01;31m\x1b[Kcap\x1b[m\x1b[K.open(0);\n'}
+[16.739466] (usb_cam) StderrLine: {'line': b'         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.740106] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:22:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kbcmp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.740681] (usb_cam) StderrLine: {'line': b'         \x1b[01;36m\x1b[Kcap\x1b[m\x1b[K.open(0);\n'}
+[16.741222] (usb_cam) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.741787] (usb_cam) StderrLine: {'line': b'         \x1b[32m\x1b[Kbcmp\x1b[m\x1b[K\n'}
+[16.742356] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:23:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCAP_PROP_FRAME_WIDTH\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.742924] (usb_cam) StderrLine: {'line': b'         cap.set(\x1b[01;31m\x1b[KCAP_PROP_FRAME_WIDTH\x1b[m\x1b[K, width);\n'}
+[16.743486] (usb_cam) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.809944] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:24:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCAP_PROP_FRAME_HEIGHT\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.810884] (usb_cam) StderrLine: {'line': b'         cap.set(\x1b[01;31m\x1b[KCAP_PROP_FRAME_HEIGHT\x1b[m\x1b[K, height);\n'}
+[16.811487] (usb_cam) StderrLine: {'line': b'                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.821968] (-) TimerEvent: {}
+[16.896745] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:28:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of non-static member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraDriver::ImgCallBack()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.898342] (usb_cam) StderrLine: {'line': b'         timer = this->create_wall_timer(delay, bind(ImgCallBack,this\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[16.899858] (usb_cam) StderrLine: {'line': b'                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.900783] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:42:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[16.901526] (usb_cam) StderrLine: {'line': b'  void \x1b[01;36m\x1b[KImgCallBack\x1b[m\x1b[K()\n'}
+[16.902242] (usb_cam) StderrLine: {'line': b'       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.903001] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:15:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KframeRate\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[16.903988] (usb_cam) StderrLine: {'line': b'     CameraDriver(int width, int height, int \x1b[01;35m\x1b[KframeRate\x1b[m\x1b[K) : Node("usb_cam_driver")\n'}
+[16.904853] (usb_cam) StderrLine: {'line': b'                                             \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[16.905660] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CameraDriver::ImgCallBack()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.906411] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:44:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcap\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[16.907110] (usb_cam) StderrLine: {'line': b'      \x1b[01;31m\x1b[Kcap\x1b[m\x1b[K >> frame;\n'}
+[16.907923] (usb_cam) StderrLine: {'line': b'      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.915524] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:44:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kbcmp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.917053] (usb_cam) StderrLine: {'line': b'      \x1b[01;36m\x1b[Kcap\x1b[m\x1b[K >> frame;\n'}
+[16.917947] (usb_cam) StderrLine: {'line': b'      \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[16.918845] (usb_cam) StderrLine: {'line': b'      \x1b[32m\x1b[Kbcmp\x1b[m\x1b[K\n'}
+[16.922254] (-) TimerEvent: {}
+[17.023820] (-) TimerEvent: {}
+[17.036830] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > > CameraDriver::ConvertFrameToMessage(cv::Mat)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.037837] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:64:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_msg_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[17.038538] (usb_cam) StderrLine: {'line': b'         \x1b[01;31m\x1b[Kimage_msg_\x1b[m\x1b[K = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image\n'}
+[17.039201] (usb_cam) StderrLine: {'line': b'         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.056136] (usb_cam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/portia/ros2Bot_ws/usb_cam/src/cam_node.cpp:64:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kimage_msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.057260] (usb_cam) StderrLine: {'line': b'         \x1b[01;36m\x1b[Kimage_msg_\x1b[m\x1b[K = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image\n'}
+[17.058171] (usb_cam) StderrLine: {'line': b'         \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.059124] (usb_cam) StderrLine: {'line': b'         \x1b[32m\x1b[Kimage_msg\x1b[m\x1b[K\n'}
+[17.124106] (-) TimerEvent: {}
+[17.225505] (-) TimerEvent: {}
+[17.326997] (-) TimerEvent: {}
+[17.428536] (-) TimerEvent: {}
+[17.529939] (-) TimerEvent: {}
+[17.631303] (-) TimerEvent: {}
+[17.732836] (-) TimerEvent: {}
+[17.834096] (-) TimerEvent: {}
+[17.935527] (-) TimerEvent: {}
+[18.037102] (-) TimerEvent: {}
+[18.138649] (-) TimerEvent: {}
+[18.240154] (-) TimerEvent: {}
+[18.341564] (-) TimerEvent: {}
+[18.443034] (-) TimerEvent: {}
+[18.544425] (-) TimerEvent: {}
+[18.645706] (-) TimerEvent: {}
+[18.741517] (usb_cam) StdoutLine: {'line': b"CMakeFiles/cam_node.dir/build.make:62: recipe for target 'CMakeFiles/cam_node.dir/src/cam_node.cpp.o' failed\n"}
+[18.742981] (usb_cam) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cam_node.dir/src/cam_node.cpp.o] Error 1\n'}
+[18.744653] (usb_cam) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/cam_node.dir/all' failed\n"}
+[18.745574] (usb_cam) StderrLine: {'line': b'make[1]: *** [CMakeFiles/cam_node.dir/all] Error 2\n'}
+[18.746248] (-) TimerEvent: {}
+[18.747091] (usb_cam) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[18.748461] (usb_cam) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[18.754455] (usb_cam) CommandEnded: {'returncode': 2}
+[18.757844] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 2}
+[18.768850] (-) EventReactorShutdown: {}
