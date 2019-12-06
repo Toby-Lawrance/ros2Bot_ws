@@ -26,19 +26,18 @@ public:
         cap.open(0);
         cap.set(CV_CAP_PROP_FRAME_WIDTH, width);
         cap.set(CV_CAP_PROP_FRAME_HEIGHT, height);
-	cap.set(CV_CAP_PROP_FPS, frameRate);
+		//cap.set(CV_CAP_PROP_FPS, frameRate);
 
-        auto delay = milliseconds(1000/frameRate);
+        //auto delay = milliseconds(1000/frameRate);
 
-        timer = this->create_wall_timer(delay, bind(&CameraDriver::ImgCallBack,this));
+        timer = this->create_wall_timer(50ms, bind(&CameraDriver::ImgCallBack,this));
     }
 private:
-    	rclcpp::TimerBase::SharedPtr timer;
+    rclcpp::TimerBase::SharedPtr timer;
 	Mat frame;
 
 	cv::VideoCapture cap;
 
-	cv_bridge::CvImage img_bridge;
 
     	//shared_ptr<camera_info_manager::CameraInfoManager> cinfo_manager_;
 	image_transport::Publisher camera_pub;
@@ -46,28 +45,31 @@ private:
 
 	void ImgCallBack()
     {
-	    cap >> frame;
+		bool bSuccess = cap.read(frame);
+
+		if(!bSuccess)
+		{
+			cout << "Stream ended" << endl;
+			break;
+		}
+	    //cap >> frame;
 	    //cout << "Received a frame" << endl;
-	    if(!frame.empty())
-        {
-	        image_msg = ConvertFrameToMessage(frame);
+	    image_msg = ConvertFrameToMessage(frame);
 
-            //sensor_msgs::msg::CameraInfo::SharedPtr camera_info_msg_(new sensor_msgs::msg::CameraInfo(cinfo_manager_->getCameraInfo()));
+        //sensor_msgs::msg::CameraInfo::SharedPtr camera_info_msg_(new sensor_msgs::msg::CameraInfo(cinfo_manager_->getCameraInfo()));
 
-	        rclcpp::Time timestamp = this->get_clock()->now();
+	    rclcpp::Time timestamp = this->get_clock()->now();
 
-	        image_msg->header.stamp = timestamp;
-            //camera_info_msg_->header.stamp = timestamp;
+	    image_msg->header.stamp = timestamp;
+        //camera_info_msg_->header.stamp = timestamp;
 
-            camera_pub.publish(image_msg);
-        }
+        camera_pub.publish(image_msg);
     }
 
 	shared_ptr<sensor_msgs::msg::Image> ConvertFrameToMessage(const Mat frame)
 	{
         std_msgs::msg::Header header;
-        img_bridge = cv_bridge::CvImage(header, sensor_msgs::image_encodings::BGR8, frame);
-        image_msg = img_bridge.toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
+        image_msg = cv_bridge::CvImage(header, sensor_msgs::image_encodings::BGR8, frame).toImageMsg(); // from cv_bridge to sensor_msgs::msg::Image
         return image_msg;
 	}
 };
